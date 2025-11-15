@@ -35,7 +35,7 @@ public class FileSystemManager {
         for (int i = 0; i < MAX_BLOCKS; i++)
             freeBlockList[i] = true;
     }
-
+//Vrai
     public void createFile(String filename) throws Exception {
         writeLock.lock();
         try {
